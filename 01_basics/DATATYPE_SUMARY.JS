@@ -31,9 +31,32 @@ let myObj = {
     age: 21,
 }
 
-const myFunction = function(){
-    console.log("Hello");
+// const myFunction = function(){
+//     console.log("Hello");
     
-}
+// }
 
-console.log(typeof bigNumber);
+// console.log(typeof bigNumber);
+
+
+
+
+// ++++++++++++++++++++++++++++++++++++
+
+
+// Stack(Primitive) , Heap(Non-Primitive)
+
+
+let myYTname = "Aughad"
+
+let anothername = myYTname
+anothername = "LoFi"
+
+console.log(myYTname);
+console.log(anothername);
+
+let user = {
+    email: userMail.com,
+    upi: ybl,
+
+}
