@@ -1,0 +1,39 @@
+//PRIMITIVE
+
+// 7  types : String, Number , Boolean, Null, Undefined, Symbol, BigInt
+
+const score = 10.3
+const isLoggedIn = false
+const temp = null
+let userMail;
+
+const id = Symbol('123')
+const anotherID = Symbol('123')
+
+console.log(id==anotherID);
+
+const bigNumber = 2214352113225487423n
+
+
+
+
+
+
+
+// Reference (Non Primitive)
+
+// Arrays, Objects, Functions
+
+const heros = ["shaktiman", "batman", "padman"];
+
+let myObj = {
+    name: "Ram",
+    age: 21,
+}
+
+const myFunction = function(){
+    console.log("Hello");
+    
+}
+
+console.log(typeof bigNumber);
