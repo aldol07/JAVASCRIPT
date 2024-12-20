@@ -36,5 +36,39 @@ function loginusermessage(un= "sam"){
 }
 
 //console.log(loginusermessage("kartikay"));
-console.log(loginusermessage());
+//console.log(loginusermessage());
+
+
+//rest spread operator
+function calculatecartprice(...num1){
+    return num1
+}
+
+//console.log(calculatecartprice(20,10,45));
+
+const user = {
+    username : "kartikay",
+    price : "230",
+}
+
+function handleObject(anyobject) {
+    console.log(`Username is ${anyobject.username} and price is ${anyobject.price}`);
+    
+}
+//handleObject(user)
+handleObject({
+    username: "sam",
+    price: 321
+})
+
+
+const mynewarray = [200,221,321,456]
+ 
+function returnsecvalue(getarray){
+    return getarray[1]
+}
+//console.log(returnsecvalue(mynewarray));
+
+console.log(returnsecvalue( [200,221,321,456]));
+
 
