@@ -55,8 +55,15 @@ anothername = "LoFi"
 console.log(myYTname);
 console.log(anothername);
 
-let user = {
-    email: userMail.com,
-    upi: ybl,
+let user1= {
+    email: "userMail.com",
+    upi: "ybl",
 
 }
+let user2 = user1
+
+user2.email = "dk@gmail.com"
+
+console.log(user1.email);
+console.log(user2.email);
+
